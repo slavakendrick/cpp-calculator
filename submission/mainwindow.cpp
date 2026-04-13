@@ -6,7 +6,7 @@
 
 MainWindow::MainWindow(QWidget* parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
-    ui->setupUi(this);                 // связываем все элементы из ui файла с окном
+    ui->setupUi(this);                  // связываем все элементы из ui файла с окном
     ui->l_result->setText("0");       // устанавливаем нач. значение поля 0 в l_result
     ui->l_memory->setText("");       //  очищаем поле памяти, убираем (M)
     ui->l_formula->setText("");     //  очищаем поле в l_formula
